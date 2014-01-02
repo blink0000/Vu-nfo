@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vuinfo.vunfo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.vuinfo.vunfo.MainSplashLauncher"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.vuinfo.vunfo.MainMenu"
+            android:label="@string/main_menu"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.vuinfo.vunfo.History"
+            android:label="@string/history"
+            android:parentActivityName="com.vuinfo.vunfo.MainMenu"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="andorid.support.PARENT_ACTIVITY"
+                android:value="com.vuinfo.vunfo.MainMenu" />
+        </activity>
+        
+        
+        <activity
+            android:name="com.vuinfo.vunfo.Structure"
+            android:label="@string/structure"
+            android:parentActivityName="com.vuinfo.vunfo.MainMenu"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="andorid.support.PARENT_ACTIVITY"
+                android:value="com.vuinfo.vunfo.MainMenu" />
+        </activity>
+        <activity
+            android:name="com.vuinfo.vunfo.SightsCulture"
+            android:label="@string/sightsculture"
+            android:parentActivityName="com.vuinfo.vunfo.MainMenu"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="andorid.support.PARENT_ACTIVITY"
+                android:value="com.vuinfo.vunfo.MainMenu" />
+        </activity>
+        <activity
+            android:name="com.vuinfo.vunfo.Sports"
+            android:label="@string/sports"
+            android:parentActivityName="com.vuinfo.vunfo.MainMenu"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="andorid.support.PARENT_ACTIVITY"
+                android:value="com.vuinfo.vunfo.MainMenu" />
+        </activity>
+        <activity
+            android:name="com.vuinfo.vunfo.Numbers"
+            android:label="@string/nubmers"
+            android:parentActivityName="com.vuinfo.vunfo.MainMenu"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="andorid.support.PARENT_ACTIVITY"
+                android:value="com.vuinfo.vunfo.MainMenu" />
+        </activity>
+        <activity
+            android:name="com.vuinfo.vunfo.Map"
+            android:label="@string/map"
+            android:parentActivityName="com.vuinfo.vunfo.MainMenu"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="andorid.support.PARENT_ACTIVITY"
+                android:value="com.vuinfo.vunfo.MainMenu" />
+        </activity>
+        <activity
+            android:name="com.vuinfo.vunfo.HotelsRestaurants"
+            android:label="@string/hotelsrest"
+            android:parentActivityName="com.vuinfo.vunfo.MainMenu"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="andorid.support.PARENT_ACTIVITY"
+                android:value="com.vuinfo.vunfo.MainMenu" />
+        </activity>
+        <activity
+            android:name="com.vuinfo.vunfo.ShoppingGas"
+            android:label="@string/shoppinggas"
+            android:parentActivityName="com.vuinfo.vunfo.MainMenu"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="andorid.support.PARENT_ACTIVITY"
+                android:value="com.vuinfo.vunfo.MainMenu" />
+        </activity>
+        <activity
+            android:name="com.vuinfo.vunfo.Events"
+            android:label="@string/events"
+            android:parentActivityName="com.vuinfo.vunfo.MainMenu"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="andorid.support.PARENT_ACTIVITY"
+                android:value="com.vuinfo.vunfo.MainMenu" />
+        </activity>
+        <activity
+            android:name="com.vuinfo.vunfo.VUBusStop"
+            android:label="@string/vubus"
+            android:parentActivityName="com.vuinfo.vunfo.MainMenu"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="andorid.support.PARENT_ACTIVITY"
+                android:value="com.vuinfo.vunfo.MainMenu" />
+        </activity>
+        <activity
+            android:name="com.vuinfo.vunfo.VUuEU"
+            android:label="@string/vueu"
+            android:parentActivityName="com.vuinfo.vunfo.MainMenu"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="andorid.support.PARENT_ACTIVITY"
+                android:value="com.vuinfo.vunfo.MainMenu" />
+        </activity>
+        <activity
+            android:name="com.vuinfo.vunfo.Options"
+            android:label="@string/options"
+            android:parentActivityName="com.vuinfo.vunfo.MainMenu"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="andorid.support.PARENT_ACTIVITY"
+                android:value="com.vuinfo.vunfo.MainMenu" />
+        </activity>
+    </application>
+
+</manifest>
