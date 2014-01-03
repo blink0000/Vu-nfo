@@ -46,7 +46,7 @@ public class MainMenu extends ListActivity implements OnItemClickListener {
 			break;
 
 		case 3:
-			Intent sports = new Intent(this, Sports.class);
+			Intent sports = new Intent(this, SportsActivity.class);
 			startActivity(sports);
 			break;
 
