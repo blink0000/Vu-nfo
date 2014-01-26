@@ -6,7 +6,14 @@
     <string name="vuinfo">VU!NFO</string>
     <string name="main_menu">Izbornik</string>
     <string name="history">Povijest</string>
-   	<string name="structure">Struktura</string>
+    <string name="histy_intro">Uvod i lokacija</string>
+    <string name="histy_erly">Rana povijest</string>
+    <string name="histy_population">Populacija</string>
+    <string name="histy_re_colonization">Ponovno naseljavanje</string>
+    <string name="histy_science_c">Znanost i kultura</string>
+    <string name="histy_vu_jugo">Vukovar pod Jugoslavijom</string>
+    <string name="histy_vu_war">Vukovar u Domovinskom ratu</string>
+    <string name="structure">Struktura</string>
     <string name="sightsculture">Znamenitosti i kultura</string>
     <string name="sports">Sport</string>
     <string name="football_name">Nogomet</string>
@@ -21,7 +28,6 @@
     <string name="fitness_name">Fitnes klubovi</string>
     <string name="sports_association_name">Sportske udruge</string>
     <string name="maps_name">Mape</string>
-    <string name="action_settings">Settings</string>
     <string name="sports_row_textview">Sports row</string>
     <string name="action_bar_sports">Sport</string>
     <string name="all_sports_name_textview">Name club</string>
@@ -30,13 +36,15 @@
     <string name="all_sports_address_textview">Address club</string>
     <string name="nubmers">Brojevi grada</string>
     <string name="map">Karta</string>
-    <string name="hotelsrest">Hoteli i restorani</string>
-    <string name="shoppinggas">Trgovine i pumpe</string>
+    <string name="hotels">Smještaj</string>
+    <string name="gas">Benzinske postaje</string>
+    <string name="drugstore">Ljekarne</string>
+    <string name="restaurant">Restorani</string>
+    <string name="shopping_centers">Trgovački centri</string>
     <string name="events">Događanja</string>
     <string name="vubus">Bus.vozni red</string>
     <string name="vueu">Vu u Eu</string>
     <string name="options">Postavke</string>
-    
     <string name="uvod">Uvod
 				 \n
 				Vukovar je grad i najveća hrvatska riječna luka na Dunavu, u hrvatskom dijelu Srijema.
@@ -46,10 +54,8 @@
 				 barokne zgrade u središtu grada, franjevački samostan, župna crkva sv.Filipa i Jakova, pravoslavna crkva sv. Nikolaja i dr. 
 				 Izvan grada na obali Dunava prema Iloku nalazi se Vučedol, bogato arheološko nalazište. 
 				 Obredna posudica Vučedolska golubica smatra se svojevrsnim simbolom grada. 
-				 Vučedol je i poznato izletište, raj za ribiče s prekrasnom pješčanom plažom na Orlovu otoku.
-				 </string>
-    <string name="polozanaselja">   
-        		 \n
+				 Vučedol je i poznato izletište, raj za ribiče s prekrasnom pješčanom plažom na Orlovu otoku.</string>
+    <string name="polozanaselja">        		 \n
         		 Položaj
         		 \n     
 		        Atraktivno ušće rijeke Vuke u Dunav, šetališta uz Dunav i uređene plaže osiguravaju športsko-rekreacijske aktivnosti tijekom cijele godine, 
@@ -66,10 +72,8 @@
 				Lužac, 
 				Centar (stara jezgra grada). 
 				Pod upravom grada Vukovara se nalaze i sela: 
-				Lipovača, Sotin i Jakobovac(naselju pripada Ovčara).   
-		</string>
-    <string name="stanovnistvo">			
-        	Prema narodnosti, većina stanovnika su Hrvati, slijede ih Srbi, Rusini, te Mađari.
+				Lipovača, Sotin i Jakobovac(naselju pripada Ovčara).   </string>
+    <string name="stanovnistvo">        	Prema narodnosti, većina stanovnika su Hrvati, slijede ih Srbi, Rusini, te Mađari.
 			Od nacionalnih manjina u Vukovaru još ima Nijemaca, Austrijanaca, Ukrajinaca, Slovaka, Crnogoraca, Albanaca itd.
 			\n
 			Hrvati
@@ -96,10 +100,8 @@
 			Tijekom 18. i 19. stoljeća naseljava se znatniji broj Nijemaca na vukovarskom području. 
 			Mnogi koji su se ranije naselili u Bačkoj sada prelaze Dunav, jer se oko Vukovara mogla dobiti jeftina zemlja. 
 			Tako u nekim selima kao npr. Sotinu Nijemci čine polovicu stanovništva. 
-			Tijekom i krajem II. svjetskog rata 1944/45. godine i Nijemci teško stradavaju i u Vukovaru ih ostaje neznatan broj.  		        
-			</string>
-    <string name="ranapovijest_antika">        	
-        			Rana povijest i antika
+			Tijekom i krajem II. svjetskog rata 1944/45. godine i Nijemci teško stradavaju i u Vukovaru ih ostaje neznatan broj.  		        </string>
+    <string name="ranapovijest_antika">        			Rana povijest i antika
 					\n
 					Naseljenost vukovarskog kraja prati se kroz pet tisuća godina u kontinuiranom slijedu putem brojnih arheoloških lokaliteta.
 					Ovdje su značajne kulture mlađeg kamenog doba (neolitik) starčevačka, vinčanska i sopotska. 
@@ -154,10 +156,8 @@
 					Tada je starosjedilačko katoličko hrvatsko i madžarsko pučanstvo teško stradalo, 
 					povuklo se u šume ili je pobijeno. Za turske vladavine ovdje djeluju franjevci okupljajući katolički puk. 
 					Na opustjelo područje kao pomoćne turske čete dolaze pravoslavni Vlasi, ali će se povući zajedno s turskom vojskom. 
-					Vukovar je oslobođen 1687. a Ilok 1688. godine.
-					</string>
-    <string name="ponovo_naseljavanje">	    			
-        			Ponovno naseljavanje -18. i 19. Stoljeće
+					Vukovar je oslobođen 1687. a Ilok 1688. godine.</string>
+    <string name="ponovo_naseljavanje">        			Ponovno naseljavanje -18. i 19. Stoljeće
 					\n				
 					U Vukovaru je ostalo naseljeno pedesetak kuća. 
 					U opustošeni vukovarski kraj vraća se starosjedilačko i novodoseljeno hrvatsko pučanstvo. 
@@ -198,10 +198,8 @@
 					Značajniji industrijski objekti osnova su u razdoblju između dva svjetska rata. 
 					Tvornica »Bata« u obućarsko-gumarskoj grani proizvodnje osnovana je 1931. godine. 
 					U isto vrijeme počinju raditi u Vukovaru značajni pogoni tekstilne industrije. 
-					Industrijalizacija je utjecala na porast gradskog stanovništva, tako da Vukovar ima prema popisu pučanstva 1948. godine preko 17.000 stanovnika.  
-					</string>
-    <string name="znanost_kultura">	    			
-        			Razvoj znanosti i kulture
+					Industrijalizacija je utjecala na porast gradskog stanovništva, tako da Vukovar ima prema popisu pučanstva 1948. godine preko 17.000 stanovnika.  </string>
+    <string name="znanost_kultura">        			Razvoj znanosti i kulture
 					\n
 					U skladu sa svojim položajem u gospodarskom i administrativnom pogledu Vukovar se razvio u prosvjetno, kulturno i zdravstveno središte. 
 					U Vukovaru se u 18. i 19. stoljeću živjelo na europski način.
@@ -224,10 +222,8 @@
 					Društva su često bila organizirana na nacionalnoj osnovi. 
 					Prva predstava na hrvatskom jeziku održana je 1821. godine, bilo je to dramsko djelo gvardijana franjevačkog samostana Grge Čevapovića. 
 					Najutjecajnije hrvatsko društvo je pjevačko društvo »Dunav«. 
-					U Vukovaru je 1922. godine otvoren Hrvatski dom, stjecište svih kulturnih zbivanja.
-					</string>
-    <string name="vukovar_jugo" formatted="false">					
-        			Vukovar pod Jugoslavijom
+					U Vukovaru je 1922. godine otvoren Hrvatski dom, stjecište svih kulturnih zbivanja.</string>
+    <string name="vukovar_jugo" formatted="false">        			Vukovar pod Jugoslavijom
 					\n
 					U razdoblju između dva svjetska rata, u okvirima jugoslavenske države, vukovarsko područje, kao i ostali hrvatski krajevi, nalazilo se pod izrazitim velikosrpskim pritiskom. 
 					Teritorijalnim podjelama na oblasti i banovine hrvatsko područje namjerno je cijepano. 
@@ -253,10 +249,8 @@
 					Arhitektonski neprimjerenim zahvatom uklonjena je građevina hrvatskog atributa koju je projektirao velikan hrvatske arhitekture Aleksandar Freudenreich, Hrvatski dom u Vukovaru.  
 					Na mjestu gdje je bio definiran povijesni arhitektonski korpus kompleksa Hrvatskoga doma, koji se je održao sve do početka 1960-ih, srušen je stari klasicistički hotel "K lavu", a nije dugo prošlo, a srušena je i ulična zgrada Hrvatskog doma. 
 					Već 1966. je godine na tom mjestu, gdje je bio Hrvatski dom, izgrađena arhitektonski neprimjerena građevina, aneks "Centra za kulturu", u koji se ulazilo s novoformiranoga "trga" (zapravo čistine) koja je nastala tako što je srušen stari hotel. 
-					Drugim riječima, uklonjen je hrvatski dom, kao što su velikosrbi napravili s hrvatskim domovima (i ljudima) 1990-ih, na način da od prostora napravili čistinu (usp. etničko čišćenje).
-					</string>
-    <string name="vu_domovinski_rat">	    			
-        			Vukovar u Domovinskom ratu 
+					Drugim riječima, uklonjen je hrvatski dom, kao što su velikosrbi napravili s hrvatskim domovima (i ljudima) 1990-ih, na način da od prostora napravili čistinu (usp. etničko čišćenje).</string>
+    <string name="vu_domovinski_rat">        			Vukovar u Domovinskom ratu 
 					\n
 					Osamostaljenjem Hrvatske 1991. godine došlo je do otvorene agresije Srbije na Vukovar i Hrvatsku. 
 					Nakon što je većina srpskog stanovništva (sva srpska djeca) pobjegla iz grada, počela je bitka za Vukovar, u kojoj su hrvatske snage branile grad protiv vojske JNA, 
@@ -274,7 +268,6 @@
 					Obraćajući se okupljenom narodu, predsjednik Tuđman je pozvao na praštanje jer pobjednik, 
 					koji ne zna praštati sije klice novih zala, a hrvatski narod to ne želi niti je želio.
 					Hrvatsko Podunavlje je mirno reintegrirano u Republiku Hrvatsku 15. siječnja 1998. godine. 
-					Otad se mnogo radi na obnovi grada i povratku svih stanovnika, te se oživljavaju kulturni i drugi vidovi gradskog života.
-					</string>
+					Otad se mnogo radi na obnovi grada i povratku svih stanovnika, te se oživljavaju kulturni i drugi vidovi gradskog života.</string>
 
 </resources>

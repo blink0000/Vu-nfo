@@ -117,11 +117,8 @@ public class SportsActivity extends Activity implements OnItemClickListener {
 	public boolean onCreateOptionsMenu(Menu menu) {
 
 		ActionBar actionBar = getActionBar();
-		actionBar.setDisplayShowHomeEnabled(false);
 		actionBar.setBackgroundDrawable(new ColorDrawable(Color
 				.parseColor("#336699")));
-		actionBar.setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
-		actionBar.setCustomView(R.layout.action_bar_sports);
 		return true;
 	}
 }

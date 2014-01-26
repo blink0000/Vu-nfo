@@ -1,8 +1,13 @@
 package com.vuinfo.vunfo;
 
+import android.annotation.SuppressLint;
+import android.app.ActionBar;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
+import android.view.Menu;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -34,5 +39,15 @@ public class MapsActivity extends FragmentActivity {
 		googleMap.getUiSettings().setZoomControlsEnabled(true);
 		googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(latLng, 14));
 
+	}
+
+	@SuppressLint("NewApi")
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+
+		ActionBar actionBar = getActionBar();
+		actionBar.setBackgroundDrawable(new ColorDrawable(Color
+				.parseColor("#336699")));
+		return true;
 	}
 }
